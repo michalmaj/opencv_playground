@@ -11,3 +11,6 @@ find_package(OpenCV REQUIRED)
 
 add_executable(tenengrad_focus tenengrad_focus/main.cpp)
 target_link_libraries(tenengrad_focus PRIVATE ${OpenCV_LIBS})
+
+add_executable(coin_detection coin_detection/main.cpp)
+target_link_libraries(coin_detection PRIVATE ${OpenCV_LIBS})
