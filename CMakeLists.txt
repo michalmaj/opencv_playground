@@ -30,3 +30,6 @@ target_link_libraries(image_inpainting PRIVATE opencv::opencv JPEG::JPEG)
 
 add_executable(screen_matting screen_matting/main.cpp)
 target_link_libraries(screen_matting PRIVATE opencv::opencv JPEG::JPEG)
+
+add_executable(homography_warp homography_warp/main.cpp)
+target_link_libraries(homography_warp PRIVATE opencv::opencv JPEG::JPEG)
