@@ -2,4 +2,5 @@
 # To keep your changes, remove these comment lines, but the plugin won't be able to modify your requirements
 
 requirements:
-  - "opencv/4.8.1"
+  - "libjpeg/9e"
+  - "opencv/4.10.0"
