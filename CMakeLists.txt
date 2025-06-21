@@ -42,3 +42,6 @@ target_link_libraries(find_known_objects PRIVATE opencv::opencv JPEG::JPEG)
 
 add_executable(panorama_stitching panorama_stitching/main.cpp)
 target_link_libraries(panorama_stitching PRIVATE opencv::opencv JPEG::JPEG)
+
+add_executable(align_rgb_channels align_rgb_channels/main.cpp)
+target_link_libraries(align_rgb_channels PRIVATE opencv::opencv JPEG::JPEG)
