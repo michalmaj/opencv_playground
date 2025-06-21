@@ -1,6 +1,6 @@
 # OpenCV Playground in Modern C++
 
-A collection of small computer vision projects and demos written in modern C++ (C++23) using OpenCV 4.8.1.  
+A collection of small computer vision projects and demos written in modern C++ (C++23) using OpenCV 4.10.0.  
 Built with [CMake](https://cmake.org/) and managed with [Conan 2.0](https://docs.conan.io/2/).
 
 This repository is a personal playground for experimenting with OpenCV and related tools.  
