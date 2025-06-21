@@ -27,3 +27,6 @@ target_link_libraries(coin_detection PRIVATE opencv::opencv JPEG::JPEG)
 
 add_executable(image_inpainting image_inpainting/main.cpp)
 target_link_libraries(image_inpainting PRIVATE opencv::opencv JPEG::JPEG)
+
+add_executable(screen_matting screen_matting/main.cpp)
+target_link_libraries(screen_matting PRIVATE opencv::opencv JPEG::JPEG)
