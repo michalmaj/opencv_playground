@@ -33,3 +33,6 @@ target_link_libraries(screen_matting PRIVATE opencv::opencv JPEG::JPEG)
 
 add_executable(homography_warp homography_warp/main.cpp)
 target_link_libraries(homography_warp PRIVATE opencv::opencv JPEG::JPEG)
+
+add_executable(image_registration image_registration/main.cpp)
+target_link_libraries(image_registration PRIVATE opencv::opencv JPEG::JPEG)
