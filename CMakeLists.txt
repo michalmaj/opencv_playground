@@ -39,3 +39,6 @@ target_link_libraries(image_registration PRIVATE opencv::opencv JPEG::JPEG)
 
 add_executable(find_known_objects find_known_objects/main.cpp)
 target_link_libraries(find_known_objects PRIVATE opencv::opencv JPEG::JPEG)
+
+add_executable(panorama_stitching panorama_stitching/main.cpp)
+target_link_libraries(panorama_stitching PRIVATE opencv::opencv JPEG::JPEG)
